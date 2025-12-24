@@ -1,0 +1,59 @@
+/* --- Estilos para index.html --- */
+.contenido-principal.layout-landing {
+    padding: 0;
+}
+
+.hero-bienvenida {
+    background-image: url('/img/foto-colegio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.hero-bienvenida::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 58, 48, 0.5);
+    z-index: -1;
+}
+
+.hero-bienvenida h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.hero-bienvenida p {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin: 10px 0 35px 0;
+}
+
+/* Boton de entrada  */
+.boton-primario {
+    display: inline-block;
+    background-color: #006442;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.boton-primario:hover {
+    background-color: #004d33;
+    transform: translateY(-2px);
+}

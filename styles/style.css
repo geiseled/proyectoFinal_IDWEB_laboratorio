@@ -1,0 +1,217 @@
+/* --- Estilos generales --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #e8f0e8;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contenido-principal {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.contenedor-seleccion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn-rol {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn-rol:hover {
+    background-color: #2980b9;
+}
+
+.formulario {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.btn-enviar {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #229954;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-volver:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 0 0.5rem;
+    }
+
+    .contenedor-seleccion {
+        gap: 0.8rem;
+    }
+
+    .btn-rol {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+/* Mejoras generales para interfaz amigable */
+.formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.btn-enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #45a049;
+}
+
+.seccion {
+    background-color: #f0f8f0;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.seccion h2 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+#horarioCalculado {
+    white-space: pre-line; /* Para que los saltos de línea se vean */
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/*--- reglas basicas de formulario estudiantes ---*/
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.acciones-formulario {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.btn-volver {
+    background-color: #555;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #333;
+}

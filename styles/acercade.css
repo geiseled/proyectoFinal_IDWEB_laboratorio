@@ -1,0 +1,181 @@
+/* --- estilos solo para acercade.html --- */
+.layout-sidebar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    padding: 0;
+    max-width: none;
+}
+
+.columna-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.acerca-seccion {
+    margin-bottom: 0;
+}
+
+/* --- Sidebar --- */
+.sidebar-acerca {
+    background-color: #fdfdfb;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 25px;
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+.sidebar-acerca h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #006442;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.sidebar-acerca ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.sidebar-acerca ul li a {
+    text-decoration: none;
+    color: #006442;
+    font-weight: bold;
+    display: block;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-acerca ul li a:hover {
+    background-color: #e8f5e9;
+}
+
+.sidebar-widget {
+    background-color: #f0f8f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar-widget h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.sidebar-widget p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* --- pagina --- */
+.page-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 0;
+    color: #006442;
+}
+
+.page-header .subtitulo {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0 0 0;
+}
+
+.acerca-seccion {
+    background-color: #fdfdfb;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.acerca-seccion h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #006442;
+    padding-bottom: 10px;
+}
+
+.MisionVision {
+    display: flex;
+    gap: 25px;
+}
+
+.mision,
+.vision {
+    flex: 1;
+}
+
+.lista-valores {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-valores li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.lista-valores li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #006442;
+    font-weight: bold;
+}
+
+
+
+/* profesores*/
+.profesores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+}
+
+.profesor-card {
+    background-color: #f1f5f1;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profesor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profesor-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #006442;
+}
+
+.profesor-card h3 {
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.profesor-materia {
+    margin: 0;
+    color: #006442;
+    font-weight: bold;
+    font-size: 0.9em;
+}
