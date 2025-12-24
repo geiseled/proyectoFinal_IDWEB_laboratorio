@@ -6,21 +6,21 @@ Sistema web completo para la gestión de tareas y calificaciones educativas, des
 
 ## Equipo de Desarrollo
 
-**Nombre del Equipo:** [NOMBRE DEL EQUIPO]
+**Nombre del Equipo:** [Colegio Miguel Grau - Sistema de Gestión Educativa]
 
-**Líder del Equipo:** [NOMBRE DEL LÍDER]
+**Líder del Equipo:** [Condori Choccata Anthony Moises]
 
 ### Integrantes:
-1. **[Estudiante 1]** - [Rol/Responsabilidades]
-2. **[Estudiante 2]** - [Rol/Responsabilidades]  
-3. **[Estudiante 3]** - [Rol/Responsabilidades]
+1. **Condori Choccata Anthony Moises** - []
+2. **Chipayo Paco Santos Christian** - []  
+3. **Pacheco Medina Geisel Reymar** - []
 
 ## Tecnologías Utilizadas
 
 ### Frontend
 - **HTML5** - Estructura y contenido
 - **CSS3** - Estilos y diseño responsivo
-- **JavaScript (ES6+)** - Interactividad y lógica del cliente
+- **JavaScript (ES6+)** - Interactividad y logica del cliente
 
 ### Backend
 - **Python 3.12+** - Lenguaje de programación
@@ -30,16 +30,15 @@ Sistema web completo para la gestión de tareas y calificaciones educativas, des
 - **PyJWT** - Autenticación con tokens
 
 ### Base de Datos
-- **MySQL 8.0+** - Sistema de gestión de base de datos
+- **MySQL 8.0+** - Sistema de gestion de base de datos
 
 ### Herramientas
 - **Git/GitHub** - Control de versiones
-- **Docker** - Contenerización
-- **Postman** - Testing de API (opcional)
+- **Docker** - Contenerizacion
 
 ## Estructura del Proyecto
 
-```
+```t
 proyecto_colegio/Piloto/
 ├── backend/                    # Módulos del backend
 │   ├── __init__.py
@@ -132,7 +131,7 @@ git --version
 
 ### Paso 1: Clonar el Repositorio
 ```bash
-git clone https://github.com/[usuario]/proyecto_colegio.git
+git clone https://github.com/geiseled/proyectoFinal_IDWEB_laboratorio.git
 cd proyecto_colegio/Piloto
 ```
 
@@ -203,7 +202,7 @@ docker run -p 5000:5000 colegio-miguel-grau
 
 La aplicación estará disponible en `http://localhost:5000`
 
-## 🧪 Testing
+## Testing
 
 ### Datos de Prueba
 
@@ -247,7 +246,7 @@ GET  /api/calificaciones/estudiante/estadisticas - Estadísticas del estudiante
 
 [Aquí agregar capturas de las principales pantallas]
 
-## 📖 Manual de Usuario
+## Manual de Usuario
 
 ### Para Profesores:
 1. Registrarse con ID formato `PROF###`
@@ -263,7 +262,7 @@ GET  /api/calificaciones/estudiante/estadisticas - Estadísticas del estudiante
 4. Consultar calificaciones
 5. Ver progreso académico
 
-## 🔮 Trabajo Futuro
+## Trabajo Futuro
 
 - [ ] Sistema de notificaciones en tiempo real
 - [ ] Chat entre profesores y estudiantes
@@ -275,7 +274,7 @@ GET  /api/calificaciones/estudiante/estadisticas - Estadísticas del estudiante
 - [ ] Calendario académico integrado
 - [ ] Mensajería interna
 
-## 📝 Conclusiones
+## Conclusiones
 
 Este proyecto demuestra la aplicación práctica de tecnologías web modernas para resolver necesidades reales del sector educativo. Se logró desarrollar un sistema completo, funcional y escalable que integra:
 
@@ -287,7 +286,7 @@ Este proyecto demuestra la aplicación práctica de tecnologías web modernas pa
 
 El trabajo en equipo y la metodología ágil fueron fundamentales para completar exitosamente este proyecto.
 
-## 📚 Bibliografía
+## Bibliografía
 
 - Flask Documentation: https://flask.palletsprojects.com/
 - MySQL Documentation: https://dev.mysql.com/doc/
@@ -295,20 +294,17 @@ El trabajo en equipo y la metodología ágil fueron fundamentales para completar
 - Python JWT: https://pyjwt.readthedocs.io/
 - Docker Documentation: https://docs.docker.com/
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto fue desarrollado con fines educativos como parte del curso de Desarrollo Web.
 
-## 🤝 Contacto
+## Contacto
 
 Para consultas o sugerencias sobre el proyecto:
 
-- [Estudiante 1]: [email]
-- [Estudiante 2]: [email]
-- [Estudiante 3]: [email]
+- [Pacheco Medina Geisel Reymar]: [gpachecome@unsa.edu.pe]
+
 
 ---
-
-**Desarrollado con ❤️ por el equipo [NOMBRE DEL EQUIPO]**
 
 *Colegio Miguel Grau - Sistema de Gestión Educativa*
