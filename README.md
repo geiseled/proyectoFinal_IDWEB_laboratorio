@@ -1,19 +1,19 @@
-# 🏫 Sistema de Gestión Educativa - Colegio Miguel Grau
+# Sistema de Gestión Educativa - Colegio Miguel Grau
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Sistema web completo para la gestión de tareas y calificaciones educativas, desarrollado como proyecto final del curso de Desarrollo Web. Permite a profesores crear y gestionar tareas, calificar estudiantes, y a los estudiantes visualizar sus asignaciones y calificaciones en tiempo real.
 
 ## Equipo de Desarrollo
 
-**Nombre del Equipo:** [Colegio Miguel Grau - Sistema de Gestión Educativa]
+**Nombre del Equipo:** Colegio Miguel Grau - Sistema de Gestión Educativa
 
-**Líder del Equipo:** [Condori Choccata Anthony Moises]
+**Líder del Equipo:** Condori Choccata Anthony Moises
 
 ### Integrantes:
-1. **Condori Choccata Anthony Moises** - []
-2. **Chipayo Paco Santos Christian** - []  
-3. **Pacheco Medina Geisel Reymar** - []
+1. **Condori Choccata Anthony Moises**
+2. **Chipayo Paco Santos Christian**  
+3. **Pacheco Medina Geisel Reymar** 
 
 ## Tecnologías Utilizadas
 
